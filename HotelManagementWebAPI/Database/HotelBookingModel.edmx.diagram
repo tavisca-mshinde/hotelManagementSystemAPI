@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="43b88aa8bc6d4c24ad05ed4360392e6e" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Address" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Amenity" Width="1.5" PointX="6" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.BookedRoom" Width="1.5" PointX="10.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Booking" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Guest" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Hotel" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.RoleMaster" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Room" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelManagementSystemModel.Staff" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_Hotel_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_Staff_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_BookedRooms_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_Booking_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_Room_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.FK_Staff_RoleMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelManagementSystemModel.RoomToAmenity" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

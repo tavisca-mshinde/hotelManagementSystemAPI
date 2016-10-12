@@ -1,0 +1,25 @@
+﻿@model HotelManagementWebAPI.Models.Search
+
+@{
+    ViewBag.Title = "DisplayHotel";
+}
+
+<h2>DisplayHotel</h2>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url: "/api/Hotels/"+@Model.City,
+            success: function (response) {
+                document.getElementById("htl").innerText = response
+            },
+            error: function (response) {
+                alert("Error");
+            }
+        })
+        });
+
+</script>
+<div id="htl">
+
+</div>
