@@ -2,9 +2,11 @@
 using HotelManagementWebAPI;
 using System.Collections.Generic;
 using HotelManagementWebAPI.Models;
+using HotelManagementMVC.Filters;
 
 namespace HotelManagementWebAPI.Controllers
 {
+    [LogActionResult]
     public class SearchesController : Controller
     {
         // GET: Searches

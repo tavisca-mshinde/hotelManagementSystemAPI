@@ -5,8 +5,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using HotelManagementMVC.Filters;
+
 namespace HotelManagementMVC.Controllers
 {
+    [LogActionResult]
     public class HotelDisplayController : Controller
     {
         // GET: HotelDisplay
