@@ -1,1 +1,16 @@
 ﻿
+10/12/2016 4:03:53 PM  Index  Welcome
+10/12/2016 4:03:53 PM  Index  Welcome
+10/12/2016 4:03:53 PM  Welcome  Index
+10/12/2016 4:03:54 PM  Welcome  Index
+10/12/2016 4:04:02 PM  SearchHotel  Searches
+10/12/2016 4:04:02 PM  SearchHotel  Searches
+10/12/2016 4:04:02 PM  Searches  SearchHotel
+10/12/2016 4:04:03 PM  Searches  SearchHotel
+10/12/2016 4:04:20 PM  SearchHotel  Searches
+10/12/2016 4:04:20 PM  SearchHotel  Searches
+10/12/2016 4:04:20 PM  Searches  SearchHotel
+10/12/2016 4:04:20 PM  Searches  SearchHotel
+10/12/2016 4:04:20 PM  DisplayHotel  HotelDisplay
+10/12/2016 4:04:20 PM  DisplayHotel  HotelDisplay
+10/12/2016 4:04:20 PM  HotelDisplay  DisplayHotel
